@@ -1,0 +1,50 @@
+/**
+ * Tactile Textile Design System — Core Tokens
+ * Jennipher Troup · 2026
+ */
+
+:root {
+  /* === Palette === */
+  --textile-warm:     #D4845A;  /* rust clay */
+  --textile-deep:     #3B1F3A;  /* deep plum */
+  --textile-gold:     #E8C96B;  /* embroidery gold */
+  --textile-cream:    #F5EDE0;  /* natural ground */
+  --textile-teal:     #3D8A7A;  /* woven teal */
+  --textile-rose:     #C45C7A;  /* bead rose */
+  --textile-indigo:   #2D2860;  /* deep woven indigo */
+
+  /* === Semantic === */
+  --textile-surface:  var(--textile-cream);
+  --textile-text:     var(--textile-deep);
+  --textile-accent:   var(--textile-warm);
+  --textile-highlight:var(--textile-gold);
+
+  /* === Texture === */
+  --textile-stitch:   2px dashed var(--textile-warm);
+  --textile-grid:     8px;
+  --textile-seam:     1px solid var(--textile-gold);
+
+  /* === Spacing === */
+  --textile-unit:     8px;
+  --textile-xs:       4px;
+  --textile-sm:       8px;
+  --textile-md:       16px;
+  --textile-lg:       24px;
+  --textile-xl:       32px;
+  --textile-2xl:      48px;
+
+  /* === Typography === */
+  --textile-font-body:   'Georgia', serif;
+  --textile-font-display:'Playfair Display', Georgia, serif;
+  --textile-font-mono:   'Courier New', monospace;
+
+  /* === Radius === */
+  --textile-radius-sm:  4px;
+  --textile-radius-md:  8px;
+  --textile-radius-lg:  16px;
+  --textile-radius-pill:50px;
+
+  /* === Shadow === */
+  --textile-shadow: 3px 3px 0px var(--textile-deep);
+  --textile-shadow-soft: 4px 4px 12px rgba(59, 31, 58, 0.2);
+}
